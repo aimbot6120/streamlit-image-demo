@@ -1,5 +1,5 @@
 import streamlit as st
-from app import ImageAnalyzer
+from ai_utils import ImageAnalyzer
 import os
 
 # Page config
@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Title
-st.title("🖼️ Image Analysis App")
+st.title("🖼️ Game Analyzer Demo")
 st.write("Upload an image and get AI-powered analysis")
 
 # Initialize session state for analyzer
